@@ -1,0 +1,65 @@
+.heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.paragraph {
+    text-align: center;
+    color: #ffffff;
+}
+
+.enter {
+    position: relative;
+}
+
+.container {
+    height: 50px;
+    position: relative;
+    border: none;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.enter-button  {
+    background-color: orange;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.checkbox {
+    display: block;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+.button {
+    background-color: orange;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 15px;
+    width: 200px;
+}
