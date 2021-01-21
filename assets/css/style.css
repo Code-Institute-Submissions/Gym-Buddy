@@ -1,34 +1,53 @@
+/*--------------------------------------------- bg colors*/
+
+.bg-color-heading {
+    background-color: rgb(124, 122, 126);
+}
+
+.bg-color-enter {
+    background-color: rgb(209, 209, 212);
+}
+
+.bg-color-chest {
+    background-color: rgb(124, 122, 126);
+}
+
+
+/*--------------------------------------------- home and menu page*/
+
 .heading {
     text-align: center;
-    color: #ffffff;
+    color:whitesmoke;
+    margin: 0;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.background-image {
+    background-image: url("../images/gymphoto1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    background-attachment: fixed;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .paragraph {
-    text-align: center;
-    color: #ffffff;
+    text-align: left;
+    color: rgb(197, 101, 22);
+    padding: 20px;
+    font-weight: bold;
 }
 
-.enter {
-    position: relative;
-}
-
-.container {
-    height: 50px;
-    position: relative;
-    border: none;
-}
-
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.enter-panel {
+        padding: 25px;
 }
 
 .enter-button  {
-    background-color: orange;
+    background-color: rgb(75, 199, 151);
     border: 2px solid black;
     color: black;
     padding: 15px 30px;
@@ -39,13 +58,8 @@
     border-radius: 4px;
 }
 
-.checkbox {
-    display: block;
-    color: white;
-    position: relative;
-    cursor: pointer;
-    font-size: 18px;
-    text-align: center;
+.enter-button:hover {
+    background-color: rgb(197, 101, 22);
 }
 
 .row {
@@ -53,7 +67,7 @@
 }
 
 .button {
-    background-color: orange;
+    background-color: rgb(75, 199, 151);
     border: 2px solid black;
     color: black;
     padding: 15px 30px;
@@ -62,4 +76,68 @@
     border-radius: 4px;
     margin: 15px;
     width: 200px;
+}
+
+.button:hover {
+    background-color: rgb(197, 101, 22);
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------------------------------------Exercise pages*/
+
+.main-menu-back {
+    height: 0px;
+}
+
+.main-menu-back > a {
+    color: rgb(197, 101, 22);
+    float: left;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.main-menu-back > a > i {
+    padding-right: 5px;
+}
+
+.main-menu-back a:hover {
+    color: rgb(75, 199, 151);
+} 
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodypart-header {
+    text-align: center;
+    color:whitesmoke;
+    margin: 0;
+    height: 75px;
+    padding-top: 5px;
+}
+
+.exerciseheading {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    color: rgb(75, 199, 151);
+}
+
+.exercisedescription {
+    padding: 25px;
+    color: rgb(75, 199, 151);
+    font-weight: bold;
+}
+
+.background-image-two {
+    background-image: url("../images/gymphoto2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    background-attachment: fixed;
 }
