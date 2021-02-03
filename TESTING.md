@@ -11,81 +11,116 @@
 
 
 
-[CSS Validator](https://jigsaw.w3.org/css-validator/) : the test didn't find any errors.
+[CSS Validator](https://jigsaw.w3.org/css-validator/) : 
 
-![CSS Validator](readme-files/cssvalidator.png)
+The test returned the following errors with bootstrap. None of the errors are assiosiated with the CSS used in this project and therfore were not actioned.
+
+![CSS Validator](testing-images/Validatorcss.JPG)
 
 ## Responsiveness
 
 To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
-![Responsive Design](readme-files/responsiveness.png)
 
-Notes:
+- Mobile Devices
+    - Home Screen: All content appears in correct locations with no overflow to either side. Scrolling works as intended. The navigation bar remians as a single line of 4 tabs on most modern screens and 
+    reduces down to 3 tabs with a further tab below on small screens such as the Moto G4. All layouts remain as intended. All buttons and drop down menus work and remain legible on all screen sizes.
+    - Menu Screen: All content appears in correct locations with no overflow to either side. The page buttons remain in a single column on all mobile device screen sizes.
+    - Exrecise Pages: All content appears in correct locations with no overflow to either side. Exercise titles, images and descriptions apear in a single column and remaain legible. 
+    - Social Page: All content appears in correct locations with no overflow to either side. All 3 social link icons remain in a single row on all screen sizes tested.
 
-- The design is responsive in most screen sizes. The only issue that I've found is that on a 10'' Notebook screen the jumbotron on "Home Page" might overflow a small bit.
+![Mobile Device](testing-images/Mobiledevice.JPG)
+
+- Bugs
+    - One observation was that in the navigation bar, the social button appears slightly to the right on smaller screens that require a two row nav bar. This did not affect functionality.
+
+![Moto G4](testing-images/MotoG4.JPG)
+
+- Tablets
+    - Home Screen: All content appears in correct locations with no overflow to either side. Scrolling works as intended on smaller tablet sizes. The navigation bar remians as a single line of 4 tabs on 
+    all screen sizes.
+    - Menu Screen: All content appears in correct locations with no overflow to either side. The menu main buttons appear as 3 rows of 3 as intended due to a single column creating to much space either side 
+    on this size screen.
+    - Exercise Pages: All content appears in correct locations with no overflow to either side. Exercises appear in two columns which fits the tablet screen size well. Dropdown menu and buttons all work as intended.
+    - Social Page: All content appears in correct locations with no overflow to either side. Social icons apear in a single row. Dropdown menu works as intended.
+
+![Tablets](testing-images/Tablets.JPG)
+
+- Laptops / Computers
+    - Home Screen: All content appears in correct locations with no overflow to either side. The navigation bar remians as a single line of 4 tabs. 
+    - Menu Screen: All content appears in correct locations with no overflow to either side. The navigation bar remians as a single line of 4 tabs. Menu main page buttons apear as 3 rows of 3 buttons to better fit 
+    the screen space.
+    - Exercise Pages: All content appears in correct locations with no overflow to either side. Exercises appear in two columns which fits the screen area well. Dropdown menu and buttons all work as intended.
+    - Social Page: All content appears in correct locations with no overflow to either side. Social icons apear in a single row. Dropdown menu works as intended.
+
+![Laptops](testing-images/Laptop.JPG)
 
 ## Browser compatibility
 
-![Browser Compatibility](readme-files/compatibility.png)
+The following browsers were used to view the project:
+- Google Chrome
+- Microsoft Edge
+- Firefox
+- DuckDuckGo
+- Safari
 
-Notes:
+The browsers were deployed directly on mobile, tablet and laptop devices. 
 
-- On Microsoft Edge and Internet Explorer, the call to action button on **Home Page** doesn't seem to show the background color, but thanks to the border that does display properly it's easy to still see that is a button.
+No issues were observed on any of the browsers accros the tested devices. 
+
+## Runtime Performance
+
+A runtime performance test was performed during the following parameters.
+    - From the home screen click the Lets Go! button.
+    - From the menu page click the body part button for Back.
+    - From the body part page for back click on social.
+    - From the social page click the drop down menu and select the body part Biceps.
+
+The following values were obtained:
+
+![Runtime Performace](testing-images/Testresults1.JPG)
+
+The values are summerised as follows:
+
+![Runtime Performance](testing-images/Testresults2.JPG)
+
+The results are found to be acceptable with no bottlenecks observed.
 
 ## Testing User stories
 
-- As an owner, I want to show off what we can do to attract more clients.
-  - When the user is navigating the site, they'll see restaurant's images at the top of every page.
-  - On the **Menu Page** the user can see all the dishes the restaurant offers with pricing information.
+- As the creator, I want to provide a descreet application that can be easily deployed.
+  - The user can easily deploy the app on a multitude of mobile devices.
+  - All options are avilable to the user from all pages making navigation quick to limit the total amount of time spent looking for the required information.
 
-- As an owner, I want to offer the possibility to book online to avoid unnecessary calls during busy hours.
+- As the creator, I want to offer visually simple instructions for quick reference in a gym enviroment.
+    - The application arranges the exercises per bodypart to provide the user with a quick reference of purpose.
+    - The user is given a simple graphic and a further detailed description for each individual exercise.
 
-  and
-- As a person celebrating a special occasion, I want to be able to book a table in advance so nothing goes wrong.
-  - The user can find a Reservation Form when they scroll down to *Make a Reservation* in **Home Page**.
-  - Alternatively, the user can find a link to go back to this form in **Contact Page**. 
+- As a creator, i want to provide further value through resources that may not be suited to the gym enviroment.
+  - Social links are provided on a seperate page which would offer further instruction and guidance to those who wish to explore further complexities.
 
-- As an owner, I want my website to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
-  - The user can see the restaurant's name in the top left corner in every moment while navigating the page.
-  - There is also a favicon that makes the website recognisable by just looking at the tab. 
 
-- As a user, I want to be able to get in touch with the restaurant for any reason.
-  - The user can access the **Contact Page** any time on the fixed menu on the top of every page, and there complete the form.
-  - On tablet or mobile view, the user can click on the hamburger menu on the top right of every page.
-  - Alternatively the user can find the restaurant’s contact details on the left side of the footer in every page.
+- As a user, i want quick and simple navigation for use in a potentially busy gym enviroment.
+  - The user can find simple, large buttons on the menu page for each body part they wish to exercise.
+  - Navigating to a different bodypart can be done through the dropdown navigation, saving on having to return to the main menu. 
 
-- As a user, I want to be able to check the opening hours and to see the restaurant's location.
-  - The user can find the restaurant's opening hours and location in the *Where to find us* section on the **Home Page**. 
-  - Alternatively the user can find the restaurant’s address on the left side of the footer in every page.
-  - There is also an embed Google Maps in the *Where to find us* section and in the **Contact Page** to make it easier to the user to visually recognise the restaurant’s location.
+- As a user i want a list of exercises that require the equipment available to me in my chosen gym.
+ - The exercises contained within the project are considered the most common and provide the core of many begginner to advanced routines.
 
-- As a curious user, I want to know more about the owner's stories.
-  - The user can read a short introduction about the restaurant’s owners when scrolling down to the *Discover Nonna Pepita* section on the **Home Page**.
-  - The user can then click on the *Read more* button to get to know them in more detail or, alternatively, the user can click on *About us* on the menu on the top right of every page. 
-  - Both options will lead to the **About us Page** where the user can see pictures and small biography of the owners.
+- As a user who is a begginer, i want help in learning the musclegroup terminology.
+ - An anotomy chart has been added to the menu page for quick reference.
 
-- As a person with an allergy, I want to be able to check out the menu in advance to see if this place is a good option for me.
-  - The user can navigate to the **Menu Page** by using the top right menu. On that page the user ca see a small icon telling which of the dishes are gluten free or vegetarian. 
-  - In addition, when making a reservation on **Home Page**, the user can specify if they have anyallergies and request a modification.
+ - As a user, i want further resources to help progress my fitness journey and keep my interest.
+  - Social links have been added which would provide further guidance and content to those seeking it.
 
-- As a regular customer, I want to check out the menu before my next visit so I can check out if there are any new dishes.
-  
-  and
-- As a potential client, I would like to see the the menu and compare it to other places regarding ingredients, prices, etc.
-  - The user can visit the **Menu Page** from every page just by clicking on the top right menu. 
+ 
 
 ## Bugs 
 
-- One of the major bugs I found during the development process was the overflowing jumbotron in **Home Page** on mobile's landscape mode. 
-  - This was solved by adding some media queries to make reduce some margins and paddings.
+- The Font awsome icon used for the Gym-Buddy logo would not disply. . 
+  - This was solved by updating the Font Awesome link to version 5.
 
-- When browsing the site on mobile, the Restaurant’s menu on **Menu Page** looked very cramped out and it was difficult to read. 
-  - This was solved by making the menu in the form of a dropwdown list in the mobile mode.
+- Deploying the project wouldnt work. 
+  - Placing the HTML files in a folder had caused read issues. Removing the files solved this issue.
 
-- The content inside the sections *history* and *where to find us* in **Home Page** were not align vertically with respect to each other.
-  - This was solved by using the align-self-center class from Bootstrap.
-
-- While testing the site on Firefox, the headings in the **Menu Page** seemed to have a white overlay/background.
-  - This was solved by removing an unnecessary div container.
 
 [Go back to README.md file](README.md).

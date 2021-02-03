@@ -102,38 +102,18 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 
 2. Log into my account
 
-3. Click on ‘Repositories’
+3. Click on 'Repositories'
 
-4. Click on ‘First Milestone Project’
+4. Click on 'Gym-Buddy'
 
-5. Click on ‘Settings’
+5. Click on 'Settings'
 
-6. Scroll down to the ‘Github Pages’ section.
+6. Scroll down to the 'Github Pages' section.
 
-7. Under the ‘Source’ heading there is a dropdown menu click on ‘None’, and select ‘Master Branch’.
+7. Under the 'Source' heading there is a dropdown menu click on 'None', and select 'Master Branch'.
 
-8. The page refreshes and goes back to the top of the page, scroll down to ‘Github Pages’ section and find ‘Your site is ready to be published at ________’ with your link. The website is deployed.
+8. The page refreshes and goes back to the top of the page, scroll down to 'Github Pages' section and find ‘Your site is ready to be published at ________’ with your link. The website is deployed.
 
-   [Follow this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-on how to deploy to Github pages.
-
-### How to run code from my First Milestone Project by cloning in Github to Repl:
-
-1. Go to [GitHub.com](https://github.com/)
-
-2. Log into my account
-
-3. Click on ‘Repositories’
-
-4. Click on ‘First Milestone Project’
-
-5. Click on the green button ‘Clone or download’
-
-6. Click on ‘Download Zip’
-
-7. Open IDE [Repl.it](https://repl.it/)
-
-8. Upload folder or files
 
 ### How to run code from my First Milestone Project by cloning in Github to Gitpod:
 
@@ -141,19 +121,19 @@ on how to deploy to Github pages.
 
 2. Log into my account
 
-3. Click on ‘Repositories’
+3. Click on 'Repositories'.
 
-4. Click on ‘First Milestone Project’
+4. Click on 'Gym-Buddy'
 
-5. Click on the green button ‘Clone or download’
+5. Click on the 'Code' button.
 
-6. Click on the icon that looks like a clipboard on the right side of the URL (this copies URL link)
+6. On the dropdown that appears next to clone, click on the icon that looks like a clipboard on the right side of the URL (this copies URL link)
 
 7. Open repo or create new repo
 
 8. Open terminal
 
-9. Type `git clone` and paste URL link and press enter.
+9. Type 'git clone' and paste URL link and press enter.
 
 
 
