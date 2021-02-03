@@ -4,27 +4,11 @@
 
 [HTML Validator](https://validator.w3.org/) : 
 
-- Home Page
+- The test returned no errors.
 
-![Home Page HTML Validator](readme-files/homevalidator.png)
+![HTML Validator](testing-images/Validator.JPG)
 
-The test returned an error that was solved by adding an empty value attribute. 
 
-The warnings were ignored since they were design decisions. 
-
-- Menu Page
-
-![Menu Page HTML Validator](readme-files/contactvalidator.png)
-
-- About Page
-
-![About Page HTML Validator](readme-files/aboutvalidator.png)
-
-The warning was ignored following design decisions.
-
-- Contact Page
-
-![Contact Page HTML Validator](readme-files/contactvalidator.png)
 
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/) : the test didn't find any errors.

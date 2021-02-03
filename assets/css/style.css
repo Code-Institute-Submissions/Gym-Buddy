@@ -38,7 +38,6 @@
 /*--------------------------------------------- Navbar*/
 
 nav {
-    max-width: auto;
     margin: 0 auto;
     padding: 5px 0;
     mask-image: linear-gradient(90deg,rgba(255,255,255,0) 0%,#ffffff 25%, #ffffff 75%, rgba(255,255,255,0) 100%);
@@ -112,10 +111,6 @@ nav ul li a:hover {
   display: block;
 }
 
-.dropdown-content a:hover {
-    background-color:none;
-}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -138,7 +133,6 @@ nav ul li a:hover {
 }
 
 .bg-color-headings {
-    max-width: auto;
     margin: 0 auto;
     padding: 20px 0;
     mask-image: linear-gradient(90deg,rgba(255,255,255,0) 0%,#ffffff 25%, #ffffff 75%, rgba(255,255,255,0) 100%);
@@ -262,7 +256,6 @@ nav ul li a:hover {
 img {
     display: block;
     max-width: 100%;
-    max-height: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
