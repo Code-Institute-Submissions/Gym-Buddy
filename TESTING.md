@@ -13,15 +13,28 @@
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/) : 
 
-The test returned the following errors with bootstrap. None of the errors are assiosiated with the CSS used in this project and therfore were not actioned.
+The test returned no errors.
 
 ![CSS Validator](testing-images/Validatorcss.JPG)
+
+---
 
 ## Responsiveness
 
 To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 - Mobile Devices
+
+The following mobile devices were utilised as part of the testing process:
+ - Moto G5
+ - Galaxy S5
+ - Pixel 2
+ - Pixel 2 XL
+ - iPhone 5/SE 
+ - iPhone 6/7/8
+ - iPhone 6/7/8 Plus
+ - iPhone X
+
     - Home Screen: All content appears in correct locations with no overflow to either side. Scrolling works as intended. The navigation bar remians as a single line of 4 tabs on most modern screens and 
     reduces down to 3 tabs with a further tab below on small screens such as the Moto G4. All layouts remain as intended. All buttons and drop down menus work and remain legible on all screen sizes.
     - Menu Screen: All content appears in correct locations with no overflow to either side. The page buttons remain in a single column on all mobile device screen sizes.
@@ -36,6 +49,12 @@ To test the responsiveness of the site I used [Chrome DevTools](https://develope
 ![Moto G4](testing-images/MotoG4.JPG)
 
 - Tablets
+
+The following tablet devices were utilised as part of the testing process:
+ - iPad
+ - iPad Pro 
+ - Surface Duo
+
     - Home Screen: All content appears in correct locations with no overflow to either side. Scrolling works as intended on smaller tablet sizes. The navigation bar remians as a single line of 4 tabs on 
     all screen sizes.
     - Menu Screen: All content appears in correct locations with no overflow to either side. The menu main buttons appear as 3 rows of 3 as intended due to a single column creating to much space either side 
@@ -46,6 +65,13 @@ To test the responsiveness of the site I used [Chrome DevTools](https://develope
 ![Tablets](testing-images/Tablets.JPG)
 
 - Laptops / Computers
+
+The following screen sizes were utilised as part of the testing process:
+ - 1920 x 1080
+ - 1440 x 900
+ - 2560 x 1440
+ - 1280 x 720 
+
     - Home Screen: All content appears in correct locations with no overflow to either side. The navigation bar remians as a single line of 4 tabs. 
     - Menu Screen: All content appears in correct locations with no overflow to either side. The navigation bar remians as a single line of 4 tabs. Menu main page buttons apear as 3 rows of 3 buttons to better fit 
     the screen space.
@@ -53,6 +79,8 @@ To test the responsiveness of the site I used [Chrome DevTools](https://develope
     - Social Page: All content appears in correct locations with no overflow to either side. Social icons apear in a single row. Dropdown menu works as intended.
 
 ![Laptops](testing-images/Laptop.JPG)
+
+---
 
 ## Browser compatibility
 
@@ -63,9 +91,11 @@ The following browsers were used to view the project:
 - DuckDuckGo
 - Safari
 
-The browsers were deployed directly on mobile, tablet and laptop devices. 
+The browsers were deployed directly on mobile, tablet and laptop devices. Responsiveness and functionality formed the primary test requirements.
 
 No issues were observed on any of the browsers accros the tested devices. 
+
+---
 
 ## Runtime Performance
 

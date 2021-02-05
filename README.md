@@ -8,6 +8,7 @@ step into the local gym.
 Gym-Budy is a simple and personal solution that provides names, descriptions and images of the most common exercises found in gyms accross the world utilising the most common equipment. To facilitate quick refrencing, 
 exercises are grouped per bodypart. This also doubles as an educational approach that allows the user to quickly become familiar with which exercises affect which bodypart. 
 
+You can visit the deployed website [here.](https://ija1980.github.io/Gym-Buddy/)
 
 ---
 
@@ -28,6 +29,22 @@ use will be the majority use case for tablets where Gym-Buddy could be used for 
 - Computer/Laptop - Not imposible but certainly unusual, laptops can be taken into the gym. It is, however, in this use case considered that the computer deployment of this app would be for referencing/educational purposes at home. 
 Some people may prefer to log the relavant exercises in a workout diary and use this app from a home computer for reference.
 
+## User Stories
+
+- As the creator, I want to provide a descreet application that can be easily deployed.
+- As the creator, I want to offer visually simple instructions for quick reference in a gym enviroment.
+- As a creator, i want to provide further value through resources that may not be suitable within the gym enviroment.
+- As a user, i want quick and simple navigation for use in a potentially busy gym enviroment.
+- As a user i want a list of exercises that require the equipment available to me in my chosen gym.
+- As a user who is a begginer, i want help in learning the musclegroup terminology.
+- As a user, i want further resources to help progress my fitness journey and keep my interest.
+
+## wireframes
+
+The wireframes were designed using Balsamiq are as follows. 
+- Home page [wireframe](wireframe//Wire-Home.JPG)
+- Menu [wireframe](wireframe//Wire-Menu.JPG)
+- Main content [wireframe](wireframe//Wire-Content.JPG)
 
 ---
 
@@ -128,8 +145,6 @@ Testing information is found on a separate file [TESTING.md](TESTING.md)
 5. Click on the 'Code' button.
 
 6. On the dropdown that appears next to clone, click on the icon that looks like a clipboard on the right side of the URL (this copies URL link)
-
-7. Open repo or create new repo
 
 8. Open terminal
 
